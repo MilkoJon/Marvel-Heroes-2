@@ -1,0 +1,26 @@
+.header{
+    background-color: black;
+    text-align: center;
+    position: relative;
+    color: rgba(206, 34, 34);
+    margin-bottom: 10px;
+    
+    // font-size: 20px;
+    @media screen and (max-width: 575px) {
+       font-size: 22px;
+      }
+    >button {
+        position: absolute;
+        right: 10px;
+        // font-size: 32px;
+        height: 80%;
+        background-color: rgba(206, 34, 34);
+        border: 2px solid grey;
+        >svg{
+            height: 80%;
+            // width: 10%;
+            position: relative;
+            bottom: 7px;
+        }
+    }
+}
